@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ada2e49540ec94c4d9a98d68d6a2fbf2, type: 3}
+  m_Name: Room 8 End Room
+  m_EditorClassIdentifier: 
+  description: 'The door slams violently behind you. There is a lit screen with words
+    in it. There are two coffins, one is empty.
+
+    Welcome again. You''re probably
+    wondering what''s going on so I''m gonna tell you once more.
+
+    The bad news
+    is that your wife died in a car accident.
+
+    The other bad news is that it
+    was you who were driving. And the other bad news.. well.. Anyway..
+
+    Right
+    after, you were put in a dungeon loop, wiping your memories everytime.
+
+    At
+    the 1000th loop you will be freed and your old memories, as well as all the memories
+    from each loop will be yours again.
+
+    Hopefully you learn your lesson. Drive
+    safe. Don''t be irresponsible. Don''t kill the two loves of your life. She was
+    pregnant. YOUR BABY! ! !
+
+    She was always there for you. She never left you
+    alone. But now? Now.
+
+    NOW I AM SOLO ! ! ! NOW YOU ARE SOLO ! ! ! NOW AND
+    FOR ETERNITY ! ! !
+
+    because you were irresponsible.. and..
+
+    AND THERE''S
+    NO GOING BACK ! ! !
+
+    SHE''S DEAD ! ! !. . . THEY''RE DEAD ! ! ! . . sh.
+    . she was a girl . . . my little child . .
+
+    Yours sincerely, You.
+
+    There''s
+    a pedestal with a ring on it and one missing.'
+  roomName: room 8
+  exits: []
+  interactableObjectsInRoom:
+  - {fileID: 11400000, guid: 3d46c58b1228d804f9ebc988e0043615, type: 2}

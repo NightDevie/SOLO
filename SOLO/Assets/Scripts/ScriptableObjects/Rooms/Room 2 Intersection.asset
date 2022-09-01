@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ada2e49540ec94c4d9a98d68d6a2fbf2, type: 3}
+  m_Name: Room 2 Intersection
+  m_EditorClassIdentifier: 
+  description: You're at an intersection. The temperature is weird around here.
+  roomName: room 2
+  exits:
+  - keyString:
+    - north
+    - n
+    exitDescription: There's a white door to the north.
+    valueRoom: {fileID: 11400000, guid: 46847e04aa744a44dae86bd7a3ae95b8, type: 2}
+  - keyString:
+    - west
+    - w
+    exitDescription: 'There''s a door to the west. A cold breeze comes from under
+      it. '
+    valueRoom: {fileID: 11400000, guid: 5b248bcb29a030647923cea67c785c51, type: 2}
+  - keyString:
+    - 4514
+    exitDescription: There's a round door facing east. Looks like it requires a code.
+      Hot waves come from there.
+    valueRoom: {fileID: 11400000, guid: b96b708c4605a8c4aa9a989c908e519b, type: 2}
+  - keyString:
+    - south
+    - s
+    exitDescription: 'There''s a hallway leading south. '
+    valueRoom: {fileID: 11400000, guid: 35e7194fc23b40b42a119924292b8fde, type: 2}
+  interactableObjectsInRoom: []

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b92fc96caf9e3d8469d435bcde85b32b, type: 3}
+  m_Name: White Dress
+  m_EditorClassIdentifier: 
+  noun: dress
+  description: "There's only a white dress on the floor.\r"
+  interactions:
+  - inputAction: {fileID: 11400000, guid: 68a6ff5993f35ce459129ebfabeac75b, type: 2}
+    textResponse: The dress has red stains.
+    actionResponse: {fileID: 0}
+  - inputAction: {fileID: 11400000, guid: e531b3da2796069488bc9e8e0596273e, type: 2}
+    textResponse: "You put the dress in your backpack.\r"
+    actionResponse: {fileID: 0}

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ada2e49540ec94c4d9a98d68d6a2fbf2, type: 3}
+  m_Name: Room 3
+  m_EditorClassIdentifier: 
+  description: "At the center of the room, a giant fan is blowing air. It's very
+    cold.\r"
+  roomName: room 3
+  exits:
+  - keyString:
+    - north
+    - n
+    exitDescription: There's a red door to the north.
+    valueRoom: {fileID: 11400000, guid: 34f4174ff3b2fa14a8b798e1b44bdf77, type: 2}
+  - keyString:
+    - east
+    - e
+    exitDescription: There's a door to the east.
+    valueRoom: {fileID: 11400000, guid: 967432d500eb595429aaa2fc9f012903, type: 2}
+  interactableObjectsInRoom:
+  - {fileID: 11400000, guid: 47cf868b3dcc68a449f8f784cc23f97a, type: 2}

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ada2e49540ec94c4d9a98d68d6a2fbf2, type: 3}
+  m_Name: Room 0 Starting Room
+  m_EditorClassIdentifier: 
+  description: 'You hear a voice whispering "type in help to see instructions".
+
+    Maybe
+    you''re going crazy, but you type it anyway.
+
+
+    You wake up in a dark, empty
+    dungeon cell wearing an empty backpack.
+
+    You feel tears going down your
+    face, although you don''t remember anything.'
+  roomName: room 0
+  exits:
+  - keyString:
+    - north
+    - n
+    - door
+    - metal door
+    exitDescription: There's a heavy metal door to the north.
+    valueRoom: {fileID: 11400000, guid: 8333aa46127453b4db7db06d0eb751d0, type: 2}
+  interactableObjectsInRoom:
+  - {fileID: 11400000, guid: a2aa3cd278d806e498136ddf7d1eb3f9, type: 2}
